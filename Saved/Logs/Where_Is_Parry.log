@@ -3573,3 +3573,1122 @@ Sampler Limit: 32
 [2025.09.12-17.41.44:849][600]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
 [2025.09.12-17.41.44:849][600]AssetCheck: /Game/M_Green Validating asset
 [2025.09.12-17.41.44:849][600]AssetCheck: /Game/ThirdPerson/Maps/_GENERATED/vsaz/SM_Pine_C724AD0F Validating asset
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: ================================================
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Total job queries 658, among them cache hits 139 (21.12%), DDC hits 465 (70.67%), Duplicates 4 (0.61%)
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Tracking 515 distinct input hashes that result in 356 distinct outputs (69.13%)
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: RAM used: 236.21 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Shaders Compiled: 50
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Jobs assigned 50, completed 50 (100%)
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Average time worker was idle: 156.89 s
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.09 s
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Job execution time: average 0.91 s, max 2.27 s
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Job life time (pending + execution): average 0.96 s, max 2.29
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Shader code size: average 7.564 KiB, min 3.957 KiB, max 11.246 KiB
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.17 s
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Jobs were issued in 50 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Average processing rate: 3.53 jobs/sec
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Total thread time: 28.43 s
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Total thread preprocess time: 10.069 s
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Percentage time preprocessing: 35.42%
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Effective parallelization: 2.01 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    7 times, average 1.08 sec, max 1.22 sec, min 0.90 sec)
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    3 times, average 0.87 sec, max 0.88 sec, min 0.87 sec)
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    3 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 0.63 sec, max 0.71 sec, min 0.52 sec)
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    7 times, average 0.46 sec, max 0.53 sec, min 0.36 sec)
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 26.64% of total time (compiled    7 times, average 1.08 sec, max 1.22 sec, min 0.90 sec)
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.45% of total time (compiled    7 times, average 0.63 sec, max 0.71 sec, min 0.52 sec)
+[2025.09.12-17.42.05:244][918]LogShaderCompilers: Display:                                                 FLumenCardPS - 11.26% of total time (compiled    7 times, average 0.46 sec, max 0.53 sec, min 0.36 sec)
+[2025.09.12-17.42.05:245][918]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.11% of total time (compiled    7 times, average 0.41 sec, max 0.47 sec, min 0.33 sec)
+[2025.09.12-17.42.05:245][918]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.74% of total time (compiled    7 times, average 0.40 sec, max 0.47 sec, min 0.32 sec)
+[2025.09.12-17.42.05:245][918]LogShaderCompilers: Display: === Material stats ===
+[2025.09.12-17.42.05:245][918]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.12-17.42.05:245][918]LogShaderCompilers: Display: Materials Translated:    217
+[2025.09.12-17.42.05:245][918]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2025.09.12-17.42.05:245][918]LogShaderCompilers: Display: Material Translation Only: 0.05 s (45%)
+[2025.09.12-17.42.05:245][918]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.09.12-17.42.05:245][918]LogShaderCompilers: Display: Material Cache Hits: 30 (14%)
+[2025.09.12-17.42.05:245][918]LogShaderCompilers: Display: ================================================
+[2025.09.12-17.43.27:044][159]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1718.120117
+[2025.09.12-17.43.28:044][162]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.12-17.43.28:044][162]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1718.786255, Update Interval: 334.708710
+[2025.09.12-17.45.13:387][571]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.09.12-17.45.13:387][571]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.09.12-17.46.44:027][971]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.12-17.46.44:039][971]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.09.12-17.46.44:039][971]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.09.12-17.46.44:546][971]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 507.107 ms (total: 1.24 sec)
+[2025.09.12-17.46.44:547][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.12-17.46.44:547][971]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.12-17.46.44:569][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021621s)
+[2025.09.12-17.46.44:569][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.021665s)
+[2025.09.12-17.46.44:592][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.09.12-17.46.44:596][971]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.09.12-17.46.44:598][971]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.12-17.46.44:598][971]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.12-17.46.44:598][971]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.12-17.46.44:598][971]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.12-17.46.44:606][971]LogWorldPartition: Display: WorldPartition initialize took 8.205 ms (total: 372.881 ms)
+[2025.09.12-17.46.44:606][971]LogPlayLevel: PIE: World Init took: (0.010225s)
+[2025.09.12-17.46.44:607][971]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.09.12-17.46.44:607][971]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.12-17.46.44:607][971]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.12-17.46.44:607][971]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.12-17.46.44:607][971]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.12-17.46.44:607][971]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.12-17.46.44:607][971]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.12-17.46.44:607][971]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.12-17.46.44:607][971]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.12-17.46.44:607][971]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.12-17.46.44:607][971]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.12-17.46.44:607][971]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.12-17.46.44:610][971]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.12-17.46.44:634][971]LogAudioMixer: Display: Using Audio Hardware Device Динамики (HyperX Cloud Stinger Core Wireless DTS)
+[2025.09.12-17.46.44:634][971]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.12-17.46.44:634][971]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.12-17.46.44:634][971]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.12-17.46.44:635][971]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.09.12-17.46.44:635][971]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.09.12-17.46.44:638][971]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.09.12-17.46.44:638][971]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.09.12-17.46.44:638][971]LogInit: FAudioDevice initialized with ID 5.
+[2025.09.12-17.46.44:638][971]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2025.09.12-17.46.44:638][971]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.09.12-17.46.44:641][971]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.09.12-17.46.44:653][971]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.09.12-19.46.44
+[2025.09.12-17.46.44:654][971]LogWorld: Bringing up level for play took: 0.012242
+[2025.09.12-17.46.44:657][971]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2025.09.12-17.46.44:662][971]PIE: Server logged in
+[2025.09.12-17.46.44:664][971]PIE: Play in editor total start time 0.624 seconds.
+[2025.09.12-17.46.44:796][974]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.09.12-17.49.45:723][553]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2096.801270
+[2025.09.12-17.49.46:724][556]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.12-17.49.46:724][556]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2097.467041, Update Interval: 353.058258
+[2025.09.12-17.53.14:225][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.12-17.53.14:225][390]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.12-17.53.14:225][390]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-17.53.14:228][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-17.53.14:228][390]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.09.12-17.53.14:234][390]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.12-17.53.14:241][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-17.53.14:270][390]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.12-17.53.14:270][390]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.09.12-17.53.14:270][390]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.09.12-17.53.14:273][390]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.09.12-17.53.14:278][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.12-17.53.14:285][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.09.12-17.53.14:748][391]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2025.09.12-17.54.24:784][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.09.12-17.54.24:793][863]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/99/HS5IZ50YZOTC1DM2XJUQHV_Auto2
+[2025.09.12-17.54.24:793][863]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/HS5IZ50YZOTC1DM2XJUQHV_Auto2359377F14088D0B3B397D58B1F660889.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/99/HS5IZ50YZOTC1DM2XJUQHV_Auto2.uasset'
+[2025.09.12-17.54.24:796][863]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.038
+[2025.09.12-17.54.24:796][863]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.038
+[2025.09.12-17.56.33:365][686]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2504.437012
+[2025.09.12-17.56.34:366][689]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.12-17.56.34:367][689]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2505.104004, Update Interval: 359.089935
+[2025.09.12-17.59.27:115][207]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.09.12-17.59.27:116][207]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.09.12-17.59.33:298][678]LogStreaming: Display: FlushAsyncLoading(1099): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.12-17.59.39:585][678]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/vsaz/Desktop/lampo.fbx]
+[2025.09.12-17.59.52:528][678]LogSlate: Window 'Import Content' being destroyed
+[2025.09.12-17.59.52:563][678]LogInterchangeEngine: [Pending] Importing
+[2025.09.12-17.59.52:647][679]LogStreaming: Display: FlushAsyncLoading(1109): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.12-17.59.52:695][680]LogStreaming: Display: FlushAsyncLoading(1110): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.12-17.59.52:906][682]LogStaticMesh: Display: Building static mesh lampo (Required Memory Estimate: 0.051083 MB)...
+[2025.09.12-17.59.52:908][682]LogStaticMesh: Adjacency [0.00s], tris: 28, UVs 1
+[2025.09.12-17.59.52:908][682]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.12-17.59.52:908][682]LogStaticMesh: Leaves [0.00s]
+[2025.09.12-17.59.52:908][682]LogStaticMesh: Reduce [0.00s]
+[2025.09.12-17.59.52:909][682]LogStaticMesh: Fallback [0.00s], num tris: 28
+[2025.09.12-17.59.52:909][682]LogStaticMesh: ConstrainClusters:
+[2025.09.12-17.59.52:909][682]LogStaticMesh:   Input: 1 Clusters, 28 Triangles and 23 Vertices
+[2025.09.12-17.59.52:909][682]LogStaticMesh:   Output without splits: 1 Clusters, 28 Triangles and 23 Vertices
+[2025.09.12-17.59.52:909][682]LogStaticMesh:   Output with splits: 1 Clusters, 28 Triangles and 23 Vertices
+[2025.09.12-17.59.52:909][682]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.12-17.59.52:909][682]LogStaticMesh: WritePages:
+[2025.09.12-17.59.52:910][682]LogStaticMesh:   Root: GPU size: 464 bytes. 1 Pages. 464.000 bytes per page (1.416% utilization).
+[2025.09.12-17.59.52:910][682]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.12-17.59.52:910][682]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2025.09.12-17.59.52:910][682]LogStaticMesh:   Total GPU size: 464 bytes, Total disk size: 612 bytes.
+[2025.09.12-17.59.52:910][682]LogStaticMesh: Encode [0.00s]
+[2025.09.12-17.59.52:910][682]LogStaticMesh: Nanite build [0.00s]
+
+[2025.09.12-17.59.52:911][682]LogStaticMesh: Built static mesh [0.01s] /Game/lampo.lampo
+[2025.09.12-17.59.53:392][684]LogInterchangeEngine: Display: Interchange import completed [C:/Users/vsaz/Desktop/lampo.fbx]
+[2025.09.12-17.59.53:392][684]Interchange: Warning: [C:/Users/vsaz/Desktop/lampo.fbx : 'lampo', StaticMesh] No smoothing group information was found for this mesh 'Cube' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.09.12-17.59.53:415][684]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.09.12-17.59.53:415][684]LogInterchangeEngine: [Success] Import Done
+[2025.09.12-17.59.54:444][690]LogPSOHitching: Encountered 50 PSO creation hitches so far (8 graphics, 42 compute). 0 of them were precached.
+[2025.09.12-17.59.56:623][835]LogMaterial: Display: Material /Game/Material.Material needed to have new flag set bUsedWithNanite !
+[2025.09.12-18.00.03:465][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.09.12-18.00.05:595][216]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.12-18.00.05:639][216]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Material.Material
+	Asset Type: Material
+[2025.09.12-18.00.05:987][216]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.09.12-18.00.06:013][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.09.12-18.00.06:039][216]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: ================================================
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Total job queries 678, among them cache hits 144 (21.24%), DDC hits 465 (68.58%), Duplicates 4 (0.59%)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Tracking 530 distinct input hashes that result in 367 distinct outputs (69.25%)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: RAM used: 240.38 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Shaders Compiled: 65
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Jobs assigned 65, completed 65 (100%)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Average time worker was idle: 231.75 s
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 1.57 s
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Job execution time: average 1.19 s, max 3.42 s
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Job life time (pending + execution): average 1.27 s, max 3.42
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Shader code size: average 8.316 KiB, min 3.957 KiB, max 18.883 KiB
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 20.62 s
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Jobs were issued in 65 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Average processing rate: 3.15 jobs/sec
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Total thread time: 49.762 s
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Total thread preprocess time: 10.481 s
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Percentage time preprocessing: 21.06%
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Effective parallelization: 2.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.80 sec, max 2.80 sec, min 2.80 sec)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 2.69 sec, max 2.69 sec, min 2.69 sec)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    1 times, average 2.27 sec, max 2.27 sec, min 2.27 sec)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    9 times, average 1.23 sec, max 2.14 sec, min 0.90 sec)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    5 times, average 1.18 sec, max 2.19 sec, min 0.70 sec)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 22.16% of total time (compiled    9 times, average 1.23 sec, max 2.14 sec, min 0.90 sec)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 11.83% of total time (compiled    5 times, average 1.18 sec, max 2.19 sec, min 0.70 sec)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.38% of total time (compiled    8 times, average 0.65 sec, max 0.77 sec, min 0.52 sec)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display:                                             FDebugViewModePS - 9.37% of total time (compiled    4 times, average 1.17 sec, max 2.05 sec, min 0.87 sec)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display:                                                 FLumenCardPS - 7.54% of total time (compiled    8 times, average 0.47 sec, max 0.55 sec, min 0.36 sec)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: === Material stats ===
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Materials Translated:    219
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Material Translation Only: 0.05 s (45%)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.09.12-18.00.06:045][216]LogShaderCompilers: Display: Material Cache Hits: 30 (14%)
+[2025.09.12-18.00.06:046][216]LogShaderCompilers: Display: ================================================
+[2025.09.12-18.00.08:484][351]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/lampo.lampo
+[2025.09.12-18.00.08:484][351]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/lampo.lampo
+[2025.09.12-18.00.08:485][351]LogActorFactory: Actor Factory spawned StaticMesh /Game/lampo.lampo as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0
+[2025.09.12-18.00.09:939][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.09.12-18.00.09:943][407]LogEditorActor: Deleted 0 Actors (0.029 secs)
+[2025.09.12-18.00.09:949][407]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/lampo.lampo
+[2025.09.12-18.00.09:949][407]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/lampo.lampo
+[2025.09.12-18.00.09:953][407]LogActorFactory: Actor Factory spawned StaticMesh /Game/lampo.lampo as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D120535D8E02_1474559875
+[2025.09.12-18.02.43:844][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.09.12-18.02.44:982][413]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.12-18.02.45:101][413]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/lampo.lampo
+	Asset Type: StaticMesh
+[2025.09.12-18.02.45:424][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1603983595 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/16/HH39547L4WTBI91HVCGO2A.PackageMetaData in its package
+[2025.09.12-18.02.45:424][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1619017638 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/47/ZJR4Y8BLFIPPIC8X6D62EJ.PackageMetaData in its package
+[2025.09.12-18.02.45:424][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1588467548 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/I0/JFM0ZGVNLCF5AEU5KC6VLW.PackageMetaData in its package
+[2025.09.12-18.02.45:424][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1605799600 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QB/PWBM8QXOEVZKALQB8CGHDG.PackageMetaData in its package
+[2025.09.12-18.02.45:424][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1612083619 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/T0/FIQSOH8T5XLCAVV87BA2JR.PackageMetaData in its package
+[2025.09.12-18.02.45:424][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053648D02_1984648288 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/Y2/1RHN9QB82G767DXQ9YI68C.PackageMetaData in its package
+[2025.09.12-18.02.45:424][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1612084620 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/ZN/NKMS2JVD8WZHKAX5CD92Q3.PackageMetaData in its package
+[2025.09.12-18.02.45:424][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1624121655 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/ZU/4HYZGKF4UWJIFHK1LN4NLO.PackageMetaData in its package
+[2025.09.12-18.02.45:424][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1597902574 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/18/41CSC03DH5WLX5J12K78F4.PackageMetaData in its package
+[2025.09.12-18.02.45:424][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053648D02_2081215293 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/7F/UL847EJ28F7J68H2PQW3NL.PackageMetaData in its package
+[2025.09.12-18.02.45:424][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1616343635 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/7J/14E3JC16H7DVJFRFNFZOSF.PackageMetaData in its package
+[2025.09.12-18.02.45:424][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1597904575 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/CF/S5SI4C6WLZK2KIQH7ELEYP.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053648D02_2076661291 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/D9/CDAW8QKJ828OGX5WY3CTYZ.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1624114651 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/DW/4NF2121HFMDM8YW9T38HHC.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1627173664 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/E9/93381OI42CK218AI5PZH69.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1589989554 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/Y7/84S3D0IZ5GFS2DEG9ZMUAU.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1589988553 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/U9/9SOXR7WZ0820CYWT0MF6LZ.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1589990555 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/2U/XEJHGON5W22FK5EI02H8PK.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1589984551 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/LA/WRWYFT5RCX2WH8H9PGGW41.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1589986552 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/EU/WPL18WPOLHPROKKSEW2JPG.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1605798599 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/GU/VHSFD61RBWUS385IP7PRPF.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1612081618 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/G1/OEACVVJCQVKYOFCI8W7QLR.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1612077616 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/F9/IH9WVORCIE0SBW3F30O2UR.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1612080617 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/I9/AZWO7WZ2OULWWSJ9XH6Q65.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1587086544 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/KE/UGF296AM3OR1DYXETFTO14.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1610374615 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/KI/U1N6175ZBR9P875M6HJCE1.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1594874565 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/M1/5NQ42EKXK0LDWCMQ9QTCTZ.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1622604649 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/MO/0LBMEZX4IXCLAZ2OB5W2QA.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053688D02_1989452239 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/UE/EGPUV6JL1Q3NQI6Y7VENE3.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1628999670 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/QE/C2K3OB86T8RI7WWW6ZWZ30.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1628998669 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/K6/CSFAGRWHW8KEF5FRZPGFU9.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1628997668 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8W/AJ8HHGAR7UZUH220W0GO3P.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1628993666 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/V6/GMGXASZLQJUU6DZQ0X7Z8I.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1628995667 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/UR/EC8HUETAGBK0NN8D6BKI6C.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1594872564 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/V7/9S34DL4HF1IWP4XO9CCGPM.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053668D02_1173444659 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/0G/2X2AX9H4HBOU6XNF9F615X.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053668D02_1173446660 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/1Y/9CH3NVKQ43DMQDPO4JFCWL.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053668D02_1173448662 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/9W/8YHNJ6N7AQTNQZAHBP2X39.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053668D02_1173440657 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/SA/RNPAWT2L0KOTDLYVI71NZ0.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053668D02_1173447661 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/CX/Z8DNEG1KLDH15WRENM9Z2D.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053668D02_1270154664 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WI/62JVWA5C8QQA5MW8YDCKHT.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1627175665 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/0X/9YJG1RKRO1M46FYYYIXTEF.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1567788528 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/78/PCB8VFDE10UFK8L9KYY1UR.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053688D02_1725005220 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/7N/4I3EP35FOCAHEZH24UGRLT.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1607591603 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/9X/43ZTHAQJI26HOUEEJ35A4A.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1588463546 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/G9/95W66Z65110M5ULRHIPZXR.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1599348576 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/KQ/V2ZONIFF8823IPRLWDFMQK.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1602505586 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/NI/TXEBTIWTZ78O79V93D5S6R.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053688D02_1989454240 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/39/OQLCFY02MODC0AIC6FFUSP.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053698D02_1127577439 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/3M/IYZZOPR8WUYL7ZRNBPDB7X.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053698D02_1127571435 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/7K/5AMPX9WWXDLOT1W4DIPB50.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1596169570 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/7Z/ZSQ4MI9FA5K3TQ3KKFFZ9A.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1596168569 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/GC/1J3OFPPUZ393KBXQS5LOZ2.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1596167568 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/JR/YVHNE1H2ZOUM9IL62WZK85.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1596163566 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/A4/YII5IHLULMGSFUHSP1BCY4.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1596165567 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/B2/KAKQ936DC4AJH00CR5XEG8.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1481137524 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/HS/XGOBKUJA75X9FFTKT99TD4.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053698D02_1127569433 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/49/FGZ2FJM4FW3X6UDQHL05UF.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053698D02_1127570434 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/LE/NFUACZAOWVE4I7L8KL0KSL.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053698D02_1127573436 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/3S/A81B5K6X71MYFINHJFR22O.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053698D02_1127564431 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/S0/ICMQOBZ9N8RM5MGLZX6PWI.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053698D02_1127567432 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/JH/6Y9OLHY0TVA7RVMLRCW13F.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1599352578 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/QD/W78G7EU3BS2CD1D656QL77.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1622603648 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/SC/VQ6BZZXQAYFUUC0C6LZNGS.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1619019640 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/U7/L8EWH3C7JT81NGALTX1WPF.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1630397674 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/J8/QGFIH3BOZ9IOEEZ3BNDODF.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1630395673 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/4E/GG4VDLH5RM1JVZ40QCZW59.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1630392671 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/ZF/057YY4P1FGR4X5S1T4TZD3.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1630398675 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/UY/XQJNK2LRFOAHDG1263HIDX.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1630394672 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/X4/KDZKSO4ACACXYYC84OCKSG.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1620943644 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/J2/IMFSGZL9ZB74DGP5SQFFRP.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1620944645 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/J8/09FMLXQG7R6OKJFIDGA4BA.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1620937641 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/BA/9S7BJ0CB9M3BHH55SDOFRZ.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1620941643 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/BA/05Z6P6XIN3DOC8UJC8UIX3.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1620940642 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/XP/CJ2FA4Q182U5H1Y5OJPD5W.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053648D02_1751805273 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/Y5/A7CCBZVHEW3TIIDRCEBVX9.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1603977591 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/TM/6BFBLGB42IFTG0QQB5SLKA.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1603981594 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/DZ/G08I8P0S7NXP5FDE0065MB.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1603980593 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/GV/ADR4RHQG8T4HP1510P1YET.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1603979592 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/Z6/HW4DG135L8CU75Y19JEWSH.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1567789529 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/19/MQ2F0SNQXTQTLZOMX9AJIS.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1613457624 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/O8/7DPH3DRF0SLBERP694DYX5.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1613452621 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/3N/W8WYV6FU1SDDUEMHHGYG9L.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1613458625 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/6O/DRH3CO9ST2WPJEFDR0UEP0.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1613456623 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/4A/PBOCR0GLMF3MRUB19JDG35.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1613454622 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/9Q/XVQ5IR7LFVQ32RVKAHBIZ9.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1622605650 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/UZ/P4P2M6IH7H2SPK8RXZ23ZY.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1622599646 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/OL/8JSL7G8R2PEDHHUO3US2OH.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1622601647 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/IQ/BRWJR4ASJQQ80T2EPOUR5Q.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053648D02_1751810276 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/RZ/X0WGGM1PWKOTGCZHIPBNFW.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053648D02_1751809275 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/F5/1HHXL1GZCF0QBZFBA1IMB8.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053648D02_1751811277 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/T2/DMCIIN5TU923RSRE04PW2A.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053648D02_1751807274 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/M4/ADMFTEI14DR0W4UHHB8U85.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053658D02_2069610479 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/T0/ALC4IN6FO8DVBQSFNWG662.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1592265556 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/5Z/I3YN9U3YIF2TKNSGZ7RPJH.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1592271559 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/TX/9A0YE2527RDORLNZHDRA3J.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1592273560 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/QE/XTWSGJIDJ69F594W9YOTV1.PackageMetaData in its package
+[2025.09.12-18.02.45:425][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1592270558 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/WG/Z2JZG8M1H34LU00MNAIDSS.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1592268557 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/WG/EY8TW8GTR8RJ2U30Q4BL1H.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1600697585 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/Y2/5SX623EWZP9PQX0EBYIGKF.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1479026523 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/0N/6CNCHEZZX4QJI12ODH9GNT.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1588470550 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/2Y/IQ44RBR4RS0BBV19X3CSPW.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053698D02_1127578440 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/OO/YL407SCPVQMQ6DO5R81P98.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053698D02_1127581442 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/L6/I9CTG6PEV1A0KUUGLOSBOG.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053698D02_1127582443 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/YQ/8VZWEGVQRC7OJQJN575QVT.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053698D02_1127583444 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/E1/BPL5N8I09OM2OMLPONQY7V.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053698D02_1127579441 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/3O/2Z9Q6BC8JRJN9KG3L0JHJR.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053658D02_2069603475 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/JI/WWK4VNA4T7E6CVF81Y1HP2.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053658D02_2069607477 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/KO/DU9UIP7RV5Z5242K9YEYSR.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053658D02_2069608478 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/WZ/AC6XBCZB1IQ9EWIZA0VHSQ.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053658D02_2069606476 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/4F/ECXTS41XYFH4X0G2FLJKLS.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053688D02_1647392217 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/6H/SPH5XI08HL8DQ31L5GSQV1.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1616336631 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/NS/HHJEW1AFTSBCPRPNLK418U.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1616340633 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/8G/KO516YGXQPP5KG4F97N0E0.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1616341634 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/HZ/S4AERJPEQ6FFQIG7Z75EDS.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1616338632 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/BJ/8NJQC6R2KS88SCGOYJMI0S.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1619018639 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/BS/DCSRXKCVE01FI10FO9X2RY.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1607587601 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/H6/KU1XK3UJZ7BKAK0MZHQ4FJ.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1587081541 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/XC/7OUOET2IJLYLMAWLSPZ08E.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1587088545 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/S7/36I30D91V36KITNDQM045C.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1587085543 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/QD/C3MCTY7PU098D87JBZ0K2B.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1587084542 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/XO/2YKRE32VVMCH0ONXHXR76W.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053678C02_1223490487 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/Z0/ONPG3BGYJ0NH6JUFF6ZDNT.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053648D02_2078665292 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/Z7/U7FXGWTTEF8ZAH5HKK58S8.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1585351538 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/0P/XWWFB0J636FC3LBY903A65.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1602509588 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/28/WLK6RCDZ0JY24KEGUF6E4A.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1625586658 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/V4/TIU5B15DMXRWUMQSSJEM1V.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1625582656 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/6Y/OCZC13FMOMMJWBH2QD3Q3W.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1625587659 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/S0/UZCPK2N2FR1YBLCKIK0LW8.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1625588660 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/RO/IASNXQKGDPM9BVRN39G2W4.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1625584657 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/2H/GRA4X1V5VYF6BAFSJ6TYCK.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1567784526 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/1N/AWX6STL9JSH2E9UPM6RZF4.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1567790530 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/IS/TH6DOD6GN2QJI7U196ZAII.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1567786527 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/44/HAEB3L5J1H2V9YB95V8CLA.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1602511589 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6S/0YND5G8I9ROFGQU19POHDO.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1605796598 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/D6/1JRJV6O5MOTRC3WAKCERM8.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1614881629 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/DI/BXSP65LSK39I1X4GJBMI1L.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1610373614 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IC/APB1XYPA0GW1DZXQF2T2WI.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053688D02_1587055214 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/N9/4LDEC55GIBJOLW3HGGI2JY.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053688D02_1700184219 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U6/XE58OWHAP98EPJM1IFQD9P.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053688D02_1979811231 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/LE/42RR7MJ69SZM49DJZNKDDJ.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053698D02_1127574437 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/LJ/QDNUNZQPVMOK5XYUWTCVF1.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053698D02_1127575438 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/SP/094ZXM6CWSL6C76GFTLD8X.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1608978606 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/VF/R9JDUZYCEC4B4EIR9P1O5C.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1585347536 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/VV/2IKRDAMCIEN5M7TEQBJF1Q.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1619013636 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/5G/KLQ1CMEN3UF81UQFE19CUL.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1588468549 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/4N/HC75J5GYPT0RE3FHW69MT7.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1588465547 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/9I/1JGQEM2DGUSBN7W7HD17FO.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1600695583 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/ZC/4OWMELBD8X1DEF53JQJQ4B.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1600691581 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/87/S5XHMIK73G6KLJ99R62V36.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1600696584 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/W3/WUQXUL7394RV1JTWAQ3VWX.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1600693582 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/DA/J1ZQRUXSILWALHH2YKIW8V.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1627172663 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/IP/0FBF42RFY9GDTDDI9SN604.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1599353579 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/TQ/HNCHKSX7KP3NEPGXJ9AUVE.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1610372613 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/VK/PMPQNVDZ2F17JMIALA0VEA.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1624118653 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/0S/9TJSYL4FLK4DHCXH8N2KBS.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1624119654 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/HD/Q3GBLZYZKJ7EQZRRHQG6JR.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1624117652 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/9Q/W5APFZLZ2X1V2NXJUAHJCU.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053648D02_2061999290 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/AH/FEA8HQXIYLCC359T9Z0AC7.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1602512590 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/T0/45F1ISXAJZ0TBOQ6BZHGWI.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053688D02_1172601183 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/V0/7XE8CG7I72TBWCLMCEI826.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1605793596 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/JP/JQNMPVPLHXNE3S4DS173VV.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1605795597 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/ZT/LI3UQW78EHRND9FU8FATVD.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1594871563 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/A1/H4SL3V9REPWJVTR22RQ3SG.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1594867561 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/X1/UOCXD23B6R87D60U7VQB8D.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1594869562 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/2E/SOQQJ7OV0YPRWN1T318AYU.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053648D02_2022426289 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/4G/OS6JL8J8TWI5PUN3108XTU.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1597901573 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/5C/7Q9MN3I582T815VJEI9LS3.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1607594605 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/OF/PG4W8I6IIG47YPBO9U9Q5S.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1607593604 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/6J/VR3LFOFDMZCKCDQAKQH1EW.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1607590602 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/P1/DLY6V4R7NFG214SC1FYTBL.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053678C02_1194201485 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/C4/VGLVRHPZ1OWFIXIWRGX9R5.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1608984609 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/E9/I9MCSD7TP671VY3L1WY6I2.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1597898571 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/K3/Y1ESP5CE15U2I0EJK4K4OU.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1597901572 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/74/6KB1M75GXSU2UZFI3D2H7R.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1585353540 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/F3/UW9K9DA1K96XVE4YPQPXN6.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1447282522 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FM/YIBF2DHWEKRU2O89GVNEZW.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1599355580 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/IM/TUFTGSPE18JY6HKVY6DWW7.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1599351577 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/HP/HPBG4S6UWYW8VVATSCV4VA.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1419985521 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/LD/FF8P3NN30E980PT9MTEO06.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1561073525 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/IO/M6ZZ7CP0JLY4DV937EHNGV.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053678C02_1246017489 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/2K/3JXTA5VQYIHYZAD4XLB679.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053678C02_1234966488 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/AL/Y0U3CUU08Z8D311QX4ENG0.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053678C02_1769139463 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/NM/CPPCJZMFCF9Y3JKP700MGP.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1619015637 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/TI/6MYYFUFG89E4LI8C1EHGZP.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053688D02_1172607186 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/VC/Q3JS42P16FT9IBU09J9KVX.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1608985610 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/0T/RMG93NIRFL7GK4R7MGDIBX.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1585352539 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/L1/PM99BEP35GZ8EQHCBMVD8Y.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053678D02_1415659882 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/VV/NBOGCEEUPDSEHAWOVPM7TU.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053688D02_1172606185 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/HE/RAZ368POA8WSDGVV6KETCA.PackageMetaData in its package
+[2025.09.12-18.02.45:426][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053688D02_1172604184 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0S/Z5CVQXYN5JIIW96TP2T6XP.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053688D02_1989455241 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/QD/CTRPNJSJ58Q8WT3BKSSO3R.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053688D02_1989447237 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/W2/JHN9KN857QRH2Q0D70IFFG.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053688D02_1989451238 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/6V/2YVVA6JZXS3TAW4N2RUX50.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1610368611 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DN/2HHEJRZKQ9JOE4YCIAROHP.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1614882630 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/GK/T58RYJ14JG32CIXFAKB4J0.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1608982608 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/HY/NJQB9XRGDQB6AUEHGDX4L7.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1608981607 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/N9/WG2NLQPC8VBLFW3YK5P5YZ.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1585350537 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/PU/PRQYUOUCA20YBMBDGWAM1H.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1610370612 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/00/ARXMEHTZKIBGA0DBU6OUJD.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1614880628 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/6S/9BL0JVN97P50FNBBV3YP3D.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1614876626 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/C5/LIC8P28XJYRXGT8WISK8DG.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1602508587 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/C8/NQ2VLXDRSWS96Q8WAVJ43F.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D12053618D02_1627168661 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/QV/O6XR3HAUFCYCAMUPZ93PLH.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1627171662 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/QN/XOMVGW8RF223B4XE2DGJ6R.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PointLight_UAID_B42E99D12053688C02_2082435665 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/TS/OV7YG8PSHSLRN0XKTK1FU2.PackageMetaData in its package
+[2025.09.12-18.02.45:427][413]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_B42E99D12053618D02_1614879627 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/02/31D4MBF541JB9J088VU2OZ.PackageMetaData in its package
+[2025.09.12-18.02.45:449][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.09.12-18.02.45:483][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.09.12-18.02.45:510][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.12-18.02.45:543][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.09.12-18.02.48:131][598]Cmd: DELETE
+[2025.09.12-18.02.48:131][598]Cmd: ACTOR DELETE
+[2025.09.12-18.02.48:134][598]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.09.12-18.02.48:160][598]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.09.12-18.02.48:163][598]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2025.09.12-18.02.53:363][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.09.12-18.02.53:371][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.12-18.02.53:417][ 50]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/99/HS5IZ50YZOTC1DM2XJUQHV
+[2025.09.12-18.02.53:417][ 50]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/HS5IZ50YZOTC1DM2XJUQHV92A969E84258B1E2D66C4EAB28B29FF5.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/99/HS5IZ50YZOTC1DM2XJUQHV.uasset'
+[2025.09.12-18.02.53:445][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.733 ms (total: 5.03 sec)
+[2025.09.12-18.02.53:497][ 50]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.12-18.02.53:497][ 50]LogContentValidation: Enabled validators:
+[2025.09.12-18.02.53:497][ 50]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.12-18.02.53:497][ 50]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.12-18.02.53:497][ 50]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.12-18.02.53:497][ 50]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.12-18.02.53:497][ 50]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.12-18.02.53:497][ 50]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.12-18.02.53:497][ 50]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2025.09.12-18.02.59:532][143]LogStreaming: Display: FlushAsyncLoading(1111): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.12-18.02.59:583][143]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/vsaz/Desktop/lampo2.fbx]
+[2025.09.12-18.03.01:584][143]LogSlate: Window 'Import Content' being destroyed
+[2025.09.12-18.03.01:610][143]LogInterchangeEngine: [Pending] Importing
+[2025.09.12-18.03.01:690][144]LogStreaming: Display: FlushAsyncLoading(1112): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.12-18.03.01:810][145]LogStreaming: Display: FlushAsyncLoading(1113): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.12-18.03.01:878][147]LogStaticMesh: Display: Building static mesh lampo2 (Required Memory Estimate: 0.051083 MB)...
+[2025.09.12-18.03.01:879][147]LogStaticMesh: Adjacency [0.00s], tris: 28, UVs 1
+[2025.09.12-18.03.01:879][147]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.12-18.03.01:879][147]LogStaticMesh: Leaves [0.00s]
+[2025.09.12-18.03.01:879][147]LogStaticMesh: Reduce [0.00s]
+[2025.09.12-18.03.01:879][147]LogStaticMesh: Fallback [0.00s], num tris: 28
+[2025.09.12-18.03.01:879][147]LogStaticMesh: ConstrainClusters:
+[2025.09.12-18.03.01:879][147]LogStaticMesh:   Input: 1 Clusters, 28 Triangles and 23 Vertices
+[2025.09.12-18.03.01:879][147]LogStaticMesh:   Output without splits: 1 Clusters, 28 Triangles and 23 Vertices
+[2025.09.12-18.03.01:879][147]LogStaticMesh:   Output with splits: 1 Clusters, 28 Triangles and 23 Vertices
+[2025.09.12-18.03.01:879][147]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.12-18.03.01:879][147]LogStaticMesh: WritePages:
+[2025.09.12-18.03.01:879][147]LogStaticMesh:   Root: GPU size: 464 bytes. 1 Pages. 464.000 bytes per page (1.416% utilization).
+[2025.09.12-18.03.01:879][147]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.12-18.03.01:879][147]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2025.09.12-18.03.01:879][147]LogStaticMesh:   Total GPU size: 464 bytes, Total disk size: 612 bytes.
+[2025.09.12-18.03.01:879][147]LogStaticMesh: Encode [0.00s]
+[2025.09.12-18.03.01:879][147]LogStaticMesh: Nanite build [0.00s]
+
+[2025.09.12-18.03.01:880][147]LogStaticMesh: Built static mesh [0.00s] /Game/lampo2.lampo2
+[2025.09.12-18.03.02:232][150]LogInterchangeEngine: Display: Interchange import completed [C:/Users/vsaz/Desktop/lampo2.fbx]
+[2025.09.12-18.03.02:232][150]Interchange: Warning: [C:/Users/vsaz/Desktop/lampo2.fbx : 'lampo2', StaticMesh] No smoothing group information was found for this mesh 'Cube' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.09.12-18.03.02:244][150]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.09.12-18.03.02:244][150]LogInterchangeEngine: [Success] Import Done
+[2025.09.12-18.03.02:246][151]LogMaterial: Display: Material /Game/Material.Material needed to have new flag set bUsedWithNanite !
+[2025.09.12-18.03.04:191][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.09.12-18.03.05:269][242]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.12-18.03.05:305][242]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Material.Material
+	Asset Type: Material
+[2025.09.12-18.03.05:597][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.09.12-18.03.05:624][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.09.12-18.03.05:650][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.09.12-18.03.07:390][342]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/lampo2.lampo2
+[2025.09.12-18.03.07:390][342]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/lampo2.lampo2
+[2025.09.12-18.03.07:391][342]LogActorFactory: Actor Factory spawned StaticMesh /Game/lampo2.lampo2 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2
+[2025.09.12-18.03.07:930][356]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2899.002930
+[2025.09.12-18.03.08:095][365]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.12-18.03.08:095][365]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2899.154297, Update Interval: 300.719635
+[2025.09.12-18.03.08:706][401]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.12-18.03.08:709][401]LogEditorActor: Deleted 0 Actors (0.029 secs)
+[2025.09.12-18.03.08:715][401]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/lampo2.lampo2
+[2025.09.12-18.03.08:715][401]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/lampo2.lampo2
+[2025.09.12-18.03.08:719][401]LogActorFactory: Actor Factory spawned StaticMesh /Game/lampo2.lampo2 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D120535D8E02_1653325876
+[2025.09.12-18.03.30:018][843]LogMaterial: Display: Material /Game/M_White.M_White needed to have new flag set bUsedWithNanite !
+[2025.09.12-18.03.30:018][843]LogMaterial: Display: Material /Engine/Transient.M_White needed to have new flag set bUsedWithNanite !
+[2025.09.12-18.03.30:084][843]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.12-18.03.30:084][843]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.12-18.03.30:084][843]MaterialEditorStats: Shader Count: 0
+[2025.09.12-18.03.30:084][843]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.12-18.03.30:183][844]MaterialEditorStats: Base pass shader: 166 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.12-18.03.30:183][844]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.09.12-18.03.30:183][844]MaterialEditorStats: Texture samplers: 1/16
+[2025.09.12-18.03.30:183][844]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.12-18.03.30:183][844]MaterialEditorStats: Shader Count: 9
+[2025.09.12-18.03.30:183][844]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.12-18.03.33:359][ 12]MaterialEditorStats: Base pass shader: 166 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.12-18.03.33:359][ 12]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.09.12-18.03.33:359][ 12]MaterialEditorStats: Nanite Compute Shader: 782 instructions
+Stats: Resources Used: 9
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.12-18.03.33:359][ 12]MaterialEditorStats: Texture samplers: 1/16
+[2025.09.12-18.03.33:359][ 12]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.12-18.03.33:359][ 12]MaterialEditorStats: Shader Count: 13
+[2025.09.12-18.03.33:359][ 12]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.12-18.04.48:369][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.09.12-18.04.48:378][729]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/UF/SQ1D743YJ77JS0LYVNYO22_Auto3
+[2025.09.12-18.04.48:378][729]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/SQ1D743YJ77JS0LYVNYO22_Auto3F7A6DC8B4FDDF7B4CBCB268A475F425D.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/UF/SQ1D743YJ77JS0LYVNYO22_Auto3.uasset'
+[2025.09.12-18.04.48:381][729]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/B6/PJTYUPWT9NAZWQGMXRO3W4_Auto3
+[2025.09.12-18.04.48:404][729]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/PJTYUPWT9NAZWQGMXRO3W4_Auto32F0409D3477FC57F930CB8A7C08F4EC6.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/B6/PJTYUPWT9NAZWQGMXRO3W4_Auto3.uasset'
+[2025.09.12-18.04.48:427][729]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/OJ/V9MPJ7XFG6HF3OSQVFAAB2_Auto3
+[2025.09.12-18.04.48:427][729]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/V9MPJ7XFG6HF3OSQVFAAB2_Auto30B7E5D7B4671BE200EF8E58CB28731C3.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/OJ/V9MPJ7XFG6HF3OSQVFAAB2_Auto3.uasset'
+[2025.09.12-18.04.48:551][729]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.206
+[2025.09.12-18.04.48:551][729]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.206
+[2025.09.12-18.04.48:552][729]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_White] ([1] browsable assets)...
+[2025.09.12-18.04.48:620][729]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_White.M_White]
+[2025.09.12-18.04.48:620][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_White]
+[2025.09.12-18.04.48:620][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_White" FILE="G:/Not_A_Porn/Where_Is_Parry/Saved/Autosaves/Game/M_White_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2025.09.12-18.04.48:647][729]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/M_White_Auto3
+[2025.09.12-18.04.48:647][729]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/M_White_Auto3585A2D0746931CF0F309DE9CBFBCF462.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Saved/Autosaves/Game/M_White_Auto3.uasset'
+[2025.09.12-18.04.48:648][729]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/lampo2] ([1] browsable assets)...
+[2025.09.12-18.04.48:662][729]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/lampo2.lampo2]
+[2025.09.12-18.04.48:662][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/lampo2]
+[2025.09.12-18.04.48:662][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lampo2" FILE="G:/Not_A_Porn/Where_Is_Parry/Saved/Autosaves/Game/lampo2_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2025.09.12-18.04.48:669][729]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/lampo2_Auto3
+[2025.09.12-18.04.48:669][729]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/lampo2_Auto34A9A49C24CE7741BB4F0A08551C21264.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Saved/Autosaves/Game/lampo2_Auto3.uasset'
+[2025.09.12-18.04.48:670][729]LogFileHelpers: Auto-saving content packages took 0.119
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: ================================================
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Total job queries 726, among them cache hits 177 (24.38%), DDC hits 470 (64.74%), Duplicates 9 (1.24%)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Tracking 540 distinct input hashes that result in 375 distinct outputs (69.44%)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: RAM used: 243.66 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Shaders Compiled: 70
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Jobs assigned 70, completed 70 (100%)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Average time worker was idle: 230.09 s
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 1.57 s
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Job execution time: average 1.31 s, max 3.42 s
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Job life time (pending + execution): average 1.39 s, max 3.42
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Shader code size: average 8.905 KiB, min 3.957 KiB, max 18.883 KiB
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 23.85 s
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Jobs were issued in 70 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Average processing rate: 2.93 jobs/sec
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Total thread time: 60.451 s
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Total thread preprocess time: 11.356 s
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Percentage time preprocessing: 18.78%
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Effective parallelization: 2.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    2 times, average 2.62 sec, max 2.80 sec, min 2.44 sec)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    2 times, average 2.57 sec, max 2.69 sec, min 2.44 sec)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    2 times, average 2.16 sec, max 2.27 sec, min 2.04 sec)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    6 times, average 1.29 sec, max 2.19 sec, min 0.70 sec)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   10 times, average 1.29 sec, max 2.14 sec, min 0.90 sec)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 21.37% of total time (compiled   10 times, average 1.29 sec, max 2.14 sec, min 0.90 sec)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 12.84% of total time (compiled    6 times, average 1.29 sec, max 2.19 sec, min 0.70 sec)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 8.66% of total time (compiled    2 times, average 2.62 sec, max 2.80 sec, min 2.44 sec)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.54% of total time (compiled    8 times, average 0.65 sec, max 0.77 sec, min 0.52 sec)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 8.49% of total time (compiled    2 times, average 2.57 sec, max 2.69 sec, min 2.44 sec)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: === Material stats ===
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Materials Translated:    223
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Material Translation Only: 0.05 s (45%)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: Material Cache Hits: 30 (13%)
+[2025.09.12-18.06.06:049][962]LogShaderCompilers: Display: ================================================
+[2025.09.12-18.08.24:174][852]LogStreaming: Display: FlushAsyncLoading(1114): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.12-18.08.24:226][852]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/vsaz/Desktop/lampo3.fbx]
+[2025.09.12-18.08.30:197][852]LogSlate: Window 'Import Content' being destroyed
+[2025.09.12-18.08.30:224][852]LogInterchangeEngine: [Pending] Importing
+[2025.09.12-18.08.30:309][853]LogStreaming: Display: FlushAsyncLoading(1115): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.12-18.08.30:565][855]LogStaticMesh: Display: Building static mesh lampo3 (Required Memory Estimate: 0.149363 MB)...
+[2025.09.12-18.08.30:566][855]LogStaticMesh: Adjacency [0.00s], tris: 92, UVs 1
+[2025.09.12-18.08.30:566][855]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.12-18.08.30:566][855]LogStaticMesh: Leaves [0.00s]
+[2025.09.12-18.08.30:566][855]LogStaticMesh: Reduce [0.00s]
+[2025.09.12-18.08.30:566][855]LogStaticMesh: Fallback [0.00s], num tris: 92
+[2025.09.12-18.08.30:566][855]LogStaticMesh: ConstrainClusters:
+[2025.09.12-18.08.30:566][855]LogStaticMesh:   Input: 1 Clusters, 92 Triangles and 67 Vertices
+[2025.09.12-18.08.30:566][855]LogStaticMesh:   Output without splits: 1 Clusters, 92 Triangles and 67 Vertices
+[2025.09.12-18.08.30:566][855]LogStaticMesh:   Output with splits: 1 Clusters, 92 Triangles and 67 Vertices
+[2025.09.12-18.08.30:566][855]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.12-18.08.30:566][855]LogStaticMesh: WritePages:
+[2025.09.12-18.08.30:566][855]LogStaticMesh:   Root: GPU size: 1072 bytes. 1 Pages. 1072.000 bytes per page (3.271% utilization).
+[2025.09.12-18.08.30:566][855]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.12-18.08.30:566][855]LogStaticMesh:   Page data disk size: 1136 bytes. Fixup data size: 24 bytes.
+[2025.09.12-18.08.30:566][855]LogStaticMesh:   Total GPU size: 1072 bytes, Total disk size: 1160 bytes.
+[2025.09.12-18.08.30:566][855]LogStaticMesh: Encode [0.00s]
+[2025.09.12-18.08.30:566][855]LogStaticMesh: Nanite build [0.00s]
+
+[2025.09.12-18.08.30:567][855]LogStaticMesh: Built static mesh [0.00s] /Game/lampo3.lampo3
+[2025.09.12-18.08.30:938][857]LogInterchangeEngine: Display: Interchange import completed [C:/Users/vsaz/Desktop/lampo3.fbx]
+[2025.09.12-18.08.30:938][857]Interchange: Warning: [C:/Users/vsaz/Desktop/lampo3.fbx : 'lampo3', StaticMesh] No smoothing group information was found for this mesh 'Cylinder' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.09.12-18.08.30:957][857]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.09.12-18.08.30:957][857]LogInterchangeEngine: [Success] Import Done
+[2025.09.12-18.08.35:992][155]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/lampo3.lampo3
+[2025.09.12-18.08.35:992][155]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/lampo3.lampo3
+[2025.09.12-18.08.35:993][155]LogActorFactory: Actor Factory spawned StaticMesh /Game/lampo3.lampo3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3
+[2025.09.12-18.08.38:151][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.09.12-18.08.38:154][266]LogEditorActor: Deleted 0 Actors (0.030 secs)
+[2025.09.12-18.08.38:162][266]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/lampo3.lampo3
+[2025.09.12-18.08.38:162][266]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/lampo3.lampo3
+[2025.09.12-18.08.38:166][266]LogActorFactory: Actor Factory spawned StaticMesh /Game/lampo3.lampo3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B42E99D120535D8E02_1982772877
+[2025.09.12-18.09.07:721][291]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3258.795166
+[2025.09.12-18.09.07:920][305]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.12-18.09.07:920][305]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3258.962158, Update Interval: 315.185394
+[2025.09.12-18.10.30:786][164]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.09.12-18.10.30:786][164]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.09.12-18.10.33:597][326]Cmd: DELETE
+[2025.09.12-18.10.33:597][326]Cmd: ACTOR DELETE
+[2025.09.12-18.10.33:602][326]LogEditorActor: Deleted Actor: PointLight
+[2025.09.12-18.10.33:628][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.09.12-18.10.33:635][326]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2025.09.12-18.10.35:250][432]Cmd: DELETE
+[2025.09.12-18.10.35:250][432]Cmd: ACTOR DELETE
+[2025.09.12-18.10.35:254][432]LogEditorActor: Deleted Actor: PointLight
+[2025.09.12-18.10.35:280][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.09.12-18.10.35:285][432]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2025.09.12-18.10.38:752][633]Cmd: DELETE
+[2025.09.12-18.10.38:752][633]Cmd: ACTOR DELETE
+[2025.09.12-18.10.38:755][633]LogEditorActor: Deleted Actor: PointLight
+[2025.09.12-18.10.38:783][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.09.12-18.10.38:788][633]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2025.09.12-18.10.49:952][340]Cmd: DELETE
+[2025.09.12-18.10.49:952][340]Cmd: ACTOR DELETE
+[2025.09.12-18.10.49:956][340]LogEditorActor: Deleted Actor: PointLight
+[2025.09.12-18.10.49:983][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.09.12-18.10.49:989][340]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2025.09.12-18.11.36:154][373]LogRenderer: Warning: [VSM] One Pass Projection max lights overflow. If you see shadow artifacts, decrease the amount of local lights per pixel, or increase r.Shadow.Virtual.OnePassProjection.MaxLightsPerPixel.
+[2025.09.12-18.11.40:597][640]Cmd: DELETE
+[2025.09.12-18.11.40:597][640]Cmd: ACTOR DELETE
+[2025.09.12-18.11.40:601][640]LogEditorActor: Deleted Actor: PointLight
+[2025.09.12-18.11.40:629][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.09.12-18.11.40:637][640]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2025.09.12-18.12.14:929][770]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.12-18.12.14:943][770]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.09.12-18.12.14:943][770]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.09.12-18.12.15:472][770]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 528.605 ms (total: 1.77 sec)
+[2025.09.12-18.12.15:472][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.12-18.12.15:472][770]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.12-18.12.15:493][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020865s)
+[2025.09.12-18.12.15:493][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.020907s)
+[2025.09.12-18.12.15:516][770]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.09.12-18.12.15:521][770]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.09.12-18.12.15:523][770]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.12-18.12.15:523][770]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.12-18.12.15:523][770]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.12-18.12.15:523][770]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.12-18.12.15:531][770]LogWorldPartition: Display: WorldPartition initialize took 8.253 ms (total: 381.135 ms)
+[2025.09.12-18.12.15:531][770]LogPlayLevel: PIE: World Init took: (0.010214s)
+[2025.09.12-18.12.15:532][770]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.09.12-18.12.15:532][770]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.12-18.12.15:532][770]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.12-18.12.15:532][770]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.12-18.12.15:532][770]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.12-18.12.15:532][770]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.12-18.12.15:532][770]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.12-18.12.15:532][770]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.12-18.12.15:532][770]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.12-18.12.15:532][770]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.12-18.12.15:532][770]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.12-18.12.15:532][770]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.12-18.12.15:534][770]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.12-18.12.15:559][770]LogAudioMixer: Display: Using Audio Hardware Device Динамики (HyperX Cloud Stinger Core Wireless DTS)
+[2025.09.12-18.12.15:559][770]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.12-18.12.15:559][770]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.12-18.12.15:559][770]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.12-18.12.15:560][770]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.09.12-18.12.15:560][770]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.09.12-18.12.15:562][770]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.09.12-18.12.15:562][770]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.09.12-18.12.15:562][770]LogInit: FAudioDevice initialized with ID 6.
+[2025.09.12-18.12.15:562][770]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2025.09.12-18.12.15:562][770]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.09.12-18.12.15:566][770]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.09.12-18.12.15:578][770]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.09.12-20.12.15
+[2025.09.12-18.12.15:578][770]LogWorld: Bringing up level for play took: 0.012046
+[2025.09.12-18.12.15:581][770]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.09.12-18.12.15:586][770]PIE: Server logged in
+[2025.09.12-18.12.15:588][770]PIE: Play in editor total start time 0.645 seconds.
+[2025.09.12-18.12.15:794][772]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.09.12-18.12.18:666][947]LogRenderer: Warning: [VSM] One Pass Projection max lights overflow. If you see shadow artifacts, decrease the amount of local lights per pixel, or increase r.Shadow.Virtual.OnePassProjection.MaxLightsPerPixel.
+[2025.09.12-18.12.38:598][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.12-18.12.38:598][153]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.12-18.12.38:599][153]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.12.38:602][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.12.38:602][153]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.09.12-18.12.38:611][153]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.12-18.12.38:617][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.12.38:642][153]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.12-18.12.38:642][153]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.09.12-18.12.38:642][153]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.09.12-18.12.38:645][153]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.09.12-18.12.38:653][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.12-18.12.38:659][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.09.12-18.12.38:766][154]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.09.12-18.12.47:339][652]Cmd: DELETE
+[2025.09.12-18.12.47:339][652]Cmd: ACTOR DELETE
+[2025.09.12-18.12.47:343][652]LogEditorActor: Deleted Actor: PointLight
+[2025.09.12-18.12.47:373][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.09.12-18.12.47:377][652]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2025.09.12-18.13.05:177][728]Cmd: DELETE
+[2025.09.12-18.13.05:177][728]Cmd: ACTOR DELETE
+[2025.09.12-18.13.05:182][728]LogEditorActor: Deleted Actor: PointLight
+[2025.09.12-18.13.05:212][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.09.12-18.13.05:219][728]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2025.09.12-18.13.09:038][972]Cmd: DELETE
+[2025.09.12-18.13.09:038][972]Cmd: ACTOR DELETE
+[2025.09.12-18.13.09:043][972]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.09.12-18.13.09:067][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.09.12-18.13.09:072][972]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2025.09.12-18.13.09:754][  8]Cmd: DELETE
+[2025.09.12-18.13.09:754][  8]Cmd: ACTOR DELETE
+[2025.09.12-18.13.09:759][  8]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.09.12-18.13.09:788][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.09.12-18.13.09:793][  8]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2025.09.12-18.13.10:756][ 66]Cmd: DELETE
+[2025.09.12-18.13.10:756][ 66]Cmd: ACTOR DELETE
+[2025.09.12-18.13.10:760][ 66]LogEditorActor: Deleted Actor: PointLight
+[2025.09.12-18.13.10:787][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.09.12-18.13.10:794][ 66]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2025.09.12-18.13.37:842][799]Cmd: MODE GRID=0
+[2025.09.12-18.14.07:822][802]LogSlate: Window 'Color Picker' being destroyed
+[2025.09.12-18.14.39:735][862]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.09.12-18.14.39:735][862]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.09.12-18.15.02:920][349]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3614.001709
+[2025.09.12-18.15.03:091][361]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.12-18.15.03:092][361]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3614.159424, Update Interval: 326.454041
+[2025.09.12-18.15.32:124][244]Cmd: DELETE
+[2025.09.12-18.15.32:124][244]Cmd: ACTOR DELETE
+[2025.09.12-18.15.32:129][244]LogEditorActor: Deleted Actor: PointLight
+[2025.09.12-18.15.32:157][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2025.09.12-18.15.32:165][244]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2025.09.12-18.16.31:114][878]Cmd: TRANSACTION UNDO
+[2025.09.12-18.16.31:114][878]LogEditorTransaction: Undo Edit Temperature
+[2025.09.12-18.16.32:363][933]Cmd: TRANSACTION UNDO
+[2025.09.12-18.16.32:363][933]LogEditorTransaction: Undo Edit Use Temperature
+[2025.09.12-18.16.33:882][ 16]Cmd: TRANSACTION UNDO
+[2025.09.12-18.16.33:882][ 16]LogEditorTransaction: Undo Clicking on Elements
+[2025.09.12-18.16.35:072][ 76]Cmd: TRANSACTION UNDO
+[2025.09.12-18.16.35:072][ 76]LogEditorTransaction: Undo Edit Temperature
+[2025.09.12-18.16.44:239][689]LogDerivedDataCache: C:/Users/vsaz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.12-18.18.32:984][321]Cmd: DELETE
+[2025.09.12-18.18.32:984][321]Cmd: ACTOR DELETE
+[2025.09.12-18.18.35:018][321]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2025.09.12-18.18.35:025][321]LogEditorActor: Deleted Actor: PointLight
+[2025.09.12-18.18.35:028][321]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.09.12-18.18.35:054][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.09.12-18.18.35:062][321]LogEditorActor: Deleted 2 Actors (0.042 secs)
+[2025.09.12-18.19.44:983][275]Cmd: DELETE
+[2025.09.12-18.19.44:983][275]Cmd: ACTOR DELETE
+[2025.09.12-18.19.44:987][275]LogEditorActor: Deleted Actor: PointLight
+[2025.09.12-18.19.45:016][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.09.12-18.19.45:024][275]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2025.09.12-18.19.55:379][886]Cmd: DELETE
+[2025.09.12-18.19.55:379][886]Cmd: ACTOR DELETE
+[2025.09.12-18.19.55:384][886]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.09.12-18.19.55:386][886]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.09.12-18.19.55:413][886]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.09.12-18.19.55:419][886]LogEditorActor: Deleted 2 Actors (0.039 secs)
+[2025.09.12-18.19.56:441][942]Cmd: DELETE
+[2025.09.12-18.19.56:441][942]Cmd: ACTOR DELETE
+[2025.09.12-18.19.56:447][942]LogEditorActor: Deleted Actor: PointLight
+[2025.09.12-18.19.56:475][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.09.12-18.19.56:481][942]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2025.09.12-18.21.10:154][193]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3981.253418
+[2025.09.12-18.21.10:350][205]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.12-18.21.10:350][205]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3981.433594, Update Interval: 344.924469
+[2025.09.12-18.21.11:439][262]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.12-18.21.11:601][262]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.09.12-18.21.11:601][262]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.09.12-18.21.11:617][262]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 16.438 ms (total: 1.78 sec)
+[2025.09.12-18.21.11:618][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.12-18.21.11:618][262]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.12-18.21.11:641][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022692s)
+[2025.09.12-18.21.11:641][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.022737s)
+[2025.09.12-18.21.11:664][262]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.09.12-18.21.11:670][262]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.09.12-18.21.11:672][262]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.12-18.21.11:672][262]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.12-18.21.11:672][262]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.12-18.21.11:672][262]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.12-18.21.11:681][262]LogWorldPartition: Display: WorldPartition initialize took 8.318 ms (total: 389.453 ms)
+[2025.09.12-18.21.11:681][262]LogPlayLevel: PIE: World Init took: (0.010642s)
+[2025.09.12-18.21.11:682][262]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.09.12-18.21.11:682][262]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.12-18.21.11:682][262]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.12-18.21.11:682][262]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.12-18.21.11:682][262]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.12-18.21.11:682][262]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.12-18.21.11:682][262]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.12-18.21.11:682][262]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.12-18.21.11:682][262]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.12-18.21.11:682][262]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.12-18.21.11:682][262]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.12-18.21.11:682][262]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.12-18.21.11:684][262]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.12-18.21.11:710][262]LogAudioMixer: Display: Using Audio Hardware Device Динамики (HyperX Cloud Stinger Core Wireless DTS)
+[2025.09.12-18.21.11:710][262]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.12-18.21.11:710][262]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.12-18.21.11:710][262]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.12-18.21.11:711][262]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.09.12-18.21.11:711][262]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.09.12-18.21.11:713][262]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.09.12-18.21.11:713][262]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.09.12-18.21.11:713][262]LogInit: FAudioDevice initialized with ID 7.
+[2025.09.12-18.21.11:714][262]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2025.09.12-18.21.11:714][262]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.09.12-18.21.11:717][262]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.09.12-18.21.11:730][262]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.09.12-20.21.11
+[2025.09.12-18.21.11:730][262]LogWorld: Bringing up level for play took: 0.013083
+[2025.09.12-18.21.11:733][262]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.09.12-18.21.11:739][262]PIE: Server logged in
+[2025.09.12-18.21.11:740][262]PIE: Play in editor total start time 0.139 seconds.
+[2025.09.12-18.21.11:883][265]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.09.12-18.21.11:883][265]LogRenderer: Warning: [VSM] One Pass Projection max lights overflow. If you see shadow artifacts, decrease the amount of local lights per pixel, or increase r.Shadow.Virtual.OnePassProjection.MaxLightsPerPixel.
+[2025.09.12-18.22.05:353][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.12-18.22.05:353][210]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.12-18.22.05:353][210]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.22.05:356][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.22.05:357][210]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.09.12-18.22.05:366][210]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.12-18.22.05:373][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.22.05:400][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.12-18.22.05:400][210]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.09.12-18.22.05:401][210]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.09.12-18.22.05:403][210]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.09.12-18.22.05:415][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.09.12-18.22.05:902][211]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.09.12-18.22.07:490][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.09.12-18.22.07:502][302]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.12-18.22.07:594][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.09.12-18.22.07:620][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.09.12-18.22.07:646][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.09.12-18.22.07:680][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/UF/SQ1D743YJ77JS0LYVNYO22
+[2025.09.12-18.22.07:681][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/SQ1D743YJ77JS0LYVNYO22A6A8EE93420EAAF9C28407B1D3766F20.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/UF/SQ1D743YJ77JS0LYVNYO22.uasset'
+[2025.09.12-18.22.07:685][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/B6/PJTYUPWT9NAZWQGMXRO3W4
+[2025.09.12-18.22.07:686][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/PJTYUPWT9NAZWQGMXRO3W4D79C787C4D519B03C7FC8990749F69B2.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/B6/PJTYUPWT9NAZWQGMXRO3W4.uasset'
+[2025.09.12-18.22.07:691][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/OJ/V9MPJ7XFG6HF3OSQVFAAB2
+[2025.09.12-18.22.07:691][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/V9MPJ7XFG6HF3OSQVFAAB2AEF2DF5647C76E14B9D661A15895968D.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/OJ/V9MPJ7XFG6HF3OSQVFAAB2.uasset'
+[2025.09.12-18.22.07:694][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/72/S26HHZ5CT6THNLDO3AD66M
+[2025.09.12-18.22.07:694][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/S26HHZ5CT6THNLDO3AD66ME2F4FCA14771337C2D341F8A0ED1A4C5.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/72/S26HHZ5CT6THNLDO3AD66M.uasset'
+[2025.09.12-18.22.07:698][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/1Q/YIW7EF9OQL3GTBC3OM2GAG
+[2025.09.12-18.22.07:698][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/YIW7EF9OQL3GTBC3OM2GAG05F61809463A41B426D3929354FBB8B5.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/1Q/YIW7EF9OQL3GTBC3OM2GAG.uasset'
+[2025.09.12-18.22.07:702][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/37/63PSFJD3T1VG8LROYWKJ12
+[2025.09.12-18.22.07:702][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/63PSFJD3T1VG8LROYWKJ1200E207754CAF7A6E1B6187B51EC0515E.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/37/63PSFJD3T1VG8LROYWKJ12.uasset'
+[2025.09.12-18.22.07:706][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/9M/L1G1TIHEKOYHIKEZ0BO8VZ
+[2025.09.12-18.22.07:707][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/L1G1TIHEKOYHIKEZ0BO8VZ399FFD0845DA627F627E73B1A38FC7CB.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/9M/L1G1TIHEKOYHIKEZ0BO8VZ.uasset'
+[2025.09.12-18.22.07:711][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/T0/J97J4NGQM4JXDJJ6Q88846
+[2025.09.12-18.22.07:711][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/J97J4NGQM4JXDJJ6Q88846F94652844F433DE8F2A9F4AC939C6A3C.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/T0/J97J4NGQM4JXDJJ6Q88846.uasset'
+[2025.09.12-18.22.07:715][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/PN/CMZF23KBDPALDN8AWYGYPB
+[2025.09.12-18.22.07:715][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/CMZF23KBDPALDN8AWYGYPB0D1080A54F95661D84CB96B66746642A.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/PN/CMZF23KBDPALDN8AWYGYPB.uasset'
+[2025.09.12-18.22.07:719][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/U9/9YST8J8W0SKNK2QYVVF5XC
+[2025.09.12-18.22.07:719][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/9YST8J8W0SKNK2QYVVF5XC423FE389485F7899BFA3A0A6ED05DBCA.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/U9/9YST8J8W0SKNK2QYVVF5XC.uasset'
+[2025.09.12-18.22.07:723][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/U1/23I61X5NCDK5YIL7LA4IRC
+[2025.09.12-18.22.07:723][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/23I61X5NCDK5YIL7LA4IRC4EB2B5304F80917856484C8DCE11672B.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/U1/23I61X5NCDK5YIL7LA4IRC.uasset'
+[2025.09.12-18.22.07:727][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/B7/YM308NWFE6TN9GJGFQF36A
+[2025.09.12-18.22.07:727][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/YM308NWFE6TN9GJGFQF36AB02A3EBA47B574CEFAA1F2A6D4D78A85.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/B7/YM308NWFE6TN9GJGFQF36A.uasset'
+[2025.09.12-18.22.07:731][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/0F/OZL02R27KZEK6OXJ4JZ1KO
+[2025.09.12-18.22.07:731][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/OZL02R27KZEK6OXJ4JZ1KO98681B244D75DD53DC6A12BD9BAC2B22.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/0F/OZL02R27KZEK6OXJ4JZ1KO.uasset'
+[2025.09.12-18.22.07:735][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/09/YDX7J9STHET3OH4L3U2NME
+[2025.09.12-18.22.07:735][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/YDX7J9STHET3OH4L3U2NME998EC7D74043D171C7E6349F0754F180.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/09/YDX7J9STHET3OH4L3U2NME.uasset'
+[2025.09.12-18.22.07:739][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/SY/6E2B925SK3826U9S9I3W70
+[2025.09.12-18.22.07:739][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/6E2B925SK3826U9S9I3W70C8AD6CF54683B24D86833195D377AE97.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/SY/6E2B925SK3826U9S9I3W70.uasset'
+[2025.09.12-18.22.07:743][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/Y3/MFSMUR9JIP8TX11QB5P7FT
+[2025.09.12-18.22.07:743][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/MFSMUR9JIP8TX11QB5P7FT4AB8D58A417F942E8A15C18F118CADFB.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/Y3/MFSMUR9JIP8TX11QB5P7FT.uasset'
+[2025.09.12-18.22.07:747][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/OT/RSZB65H89SXQWYL6KHOA86
+[2025.09.12-18.22.07:747][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/RSZB65H89SXQWYL6KHOA860913EA5C41D777CAF2A138A3AE8F0B8B.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/OT/RSZB65H89SXQWYL6KHOA86.uasset'
+[2025.09.12-18.22.07:750][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/MQ/D8G15JH61S436G7R2PXBJ0
+[2025.09.12-18.22.07:750][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/D8G15JH61S436G7R2PXBJ0A7B54D564BCEB1C064082CA20D9DEC22.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/MQ/D8G15JH61S436G7R2PXBJ0.uasset'
+[2025.09.12-18.22.07:754][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/Z1/SGHTI6CWCWIKUVIO1ZUGHA
+[2025.09.12-18.22.07:754][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/SGHTI6CWCWIKUVIO1ZUGHAF0AB25F34B14F6D765FD04BCAFC797F0.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/Z1/SGHTI6CWCWIKUVIO1ZUGHA.uasset'
+[2025.09.12-18.22.07:758][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/19/SY4TY8HU56GYIT7G3JQX89
+[2025.09.12-18.22.07:758][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/SY4TY8HU56GYIT7G3JQX897679AABC4FE5FCA89F66D78F2C9DBEDF.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/19/SY4TY8HU56GYIT7G3JQX89.uasset'
+[2025.09.12-18.22.07:762][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/AD/QBLY6DECX9DV8SKP5HFPXN
+[2025.09.12-18.22.07:762][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/QBLY6DECX9DV8SKP5HFPXN0E0AD45D457A406C117A4DB63FE5386B.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/AD/QBLY6DECX9DV8SKP5HFPXN.uasset'
+[2025.09.12-18.22.07:768][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/DA/LZLZGLNRXWP0LMWRN9WXGX
+[2025.09.12-18.22.07:768][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/LZLZGLNRXWP0LMWRN9WXGXB8E1CA8244268637A868E88521F32B27.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/DA/LZLZGLNRXWP0LMWRN9WXGX.uasset'
+[2025.09.12-18.22.07:771][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/P4/7AG2GHFTJ0L0MBNKR8E5RE
+[2025.09.12-18.22.07:771][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/7AG2GHFTJ0L0MBNKR8E5RE593FF81E4ADB8DD8FA7D79840284AD50.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/P4/7AG2GHFTJ0L0MBNKR8E5RE.uasset'
+[2025.09.12-18.22.07:776][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/PJ/TK47C5GKH4NN2U27YM6M00
+[2025.09.12-18.22.07:776][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/TK47C5GKH4NN2U27YM6M0030350A2A4A85B0B1232F5B83E46A7F67.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/PJ/TK47C5GKH4NN2U27YM6M00.uasset'
+[2025.09.12-18.22.07:779][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/DS/QTJVKTFGT8N5FSW76SANP8
+[2025.09.12-18.22.07:779][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/QTJVKTFGT8N5FSW76SANP8FC8D7D5B4713A49466E438A41472E404.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/DS/QTJVKTFGT8N5FSW76SANP8.uasset'
+[2025.09.12-18.22.07:782][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/7I/EPEIFPL8FLY5K42D61U4IU
+[2025.09.12-18.22.07:782][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/EPEIFPL8FLY5K42D61U4IUA92BBA11432248E4A9AAE1B2E4461064.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/7I/EPEIFPL8FLY5K42D61U4IU.uasset'
+[2025.09.12-18.22.07:786][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/2A/HK0L7R774C1BOWWOJKTF1H
+[2025.09.12-18.22.07:786][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/HK0L7R774C1BOWWOJKTF1HFF126313446C4762C4228A86FF74FFCD.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/2A/HK0L7R774C1BOWWOJKTF1H.uasset'
+[2025.09.12-18.22.07:790][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/D9/BC3V3QOXWP01GSCS18BOJ9
+[2025.09.12-18.22.07:790][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/BC3V3QOXWP01GSCS18BOJ9F4AD99294A6A0AD7029128B69AB35D01.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/D9/BC3V3QOXWP01GSCS18BOJ9.uasset'
+[2025.09.12-18.22.07:795][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/TE/E28OFS1AQ0IU3U66ET2GTB
+[2025.09.12-18.22.07:795][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/E28OFS1AQ0IU3U66ET2GTBFDCF592F4B0B4BE4E65EF0952E51FA06.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/TE/E28OFS1AQ0IU3U66ET2GTB.uasset'
+[2025.09.12-18.22.07:798][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/IU/Q8KLB3LSC246PISB6PSOEC
+[2025.09.12-18.22.07:798][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/Q8KLB3LSC246PISB6PSOECDA273E794AE0258C4700398E108EA56B.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/IU/Q8KLB3LSC246PISB6PSOEC.uasset'
+[2025.09.12-18.22.07:802][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/MB/IY70Y5KG866AU78I33U716
+[2025.09.12-18.22.07:802][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/IY70Y5KG866AU78I33U71665B8ECA748C2CC19C2FCEBB43480DF90.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/MB/IY70Y5KG866AU78I33U716.uasset'
+[2025.09.12-18.22.07:805][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/N3/JELHRVQRE52VGEOUYPJ75N
+[2025.09.12-18.22.07:805][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/JELHRVQRE52VGEOUYPJ75NEBFF7D574754373DC54E03810E2CC03B.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/N3/JELHRVQRE52VGEOUYPJ75N.uasset'
+[2025.09.12-18.22.07:809][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/6N/JD97HAEHPIGK6BZ3AHT2A6
+[2025.09.12-18.22.07:809][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/JD97HAEHPIGK6BZ3AHT2A69BBF357943B7733A7EF4EA9FB4E3E5E4.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/6N/JD97HAEHPIGK6BZ3AHT2A6.uasset'
+[2025.09.12-18.22.07:813][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/9N/G88LET41ZNUVH6K8E4T5HB
+[2025.09.12-18.22.07:813][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/G88LET41ZNUVH6K8E4T5HB33E3471748B18460FB766D91699C2B96.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/9N/G88LET41ZNUVH6K8E4T5HB.uasset'
+[2025.09.12-18.22.07:817][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/AF/LXHFK6T32BR499MD0YVOXU
+[2025.09.12-18.22.07:817][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/LXHFK6T32BR499MD0YVOXU2B3A08C64A9B4B82A09DFBA0A846DEDC.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/AF/LXHFK6T32BR499MD0YVOXU.uasset'
+[2025.09.12-18.22.07:975][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/2C/5TCGT9UAQW2ZZ1P2O106HL
+[2025.09.12-18.22.07:976][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/5TCGT9UAQW2ZZ1P2O106HL9ADF0C81499E10245E389F81A4E984EE.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/2C/5TCGT9UAQW2ZZ1P2O106HL.uasset'
+[2025.09.12-18.22.07:981][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/YQ/PR2U73HLUS20G77AEMKEC4
+[2025.09.12-18.22.07:981][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/PR2U73HLUS20G77AEMKEC4E0CE5F33452638742D5B9AB752EE0AAC.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/YQ/PR2U73HLUS20G77AEMKEC4.uasset'
+[2025.09.12-18.22.07:985][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/6O/EIDBBFMCO22K57JU8GBC5I
+[2025.09.12-18.22.07:985][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/EIDBBFMCO22K57JU8GBC5I1BEF0AF94DB9DF572E739B9296062DD9.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/6O/EIDBBFMCO22K57JU8GBC5I.uasset'
+[2025.09.12-18.22.07:991][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/OM/1Z3TI9YHHI12FA3NXP529N
+[2025.09.12-18.22.07:992][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/1Z3TI9YHHI12FA3NXP529N5FACF76B4781FD638C171B9A41A6871C.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/OM/1Z3TI9YHHI12FA3NXP529N.uasset'
+[2025.09.12-18.22.07:996][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/CP/A8AUPSJBZPMDL4Z9BQIFUA
+[2025.09.12-18.22.07:996][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/A8AUPSJBZPMDL4Z9BQIFUA429C2D5E4EC38E3845865A98CF7ED726.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/CP/A8AUPSJBZPMDL4Z9BQIFUA.uasset'
+[2025.09.12-18.22.08:000][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/TR/NF7DQA6QE9CRG9BF9KK7AB
+[2025.09.12-18.22.08:000][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/NF7DQA6QE9CRG9BF9KK7AB8720385B423A7109DCE4D1A037475FE4.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/TR/NF7DQA6QE9CRG9BF9KK7AB.uasset'
+[2025.09.12-18.22.08:004][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/1E/LXEL0L55SVBGFYCMN137Q5
+[2025.09.12-18.22.08:004][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/LXEL0L55SVBGFYCMN137Q5F56571F247EAFE80E097E5B2735726DF.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/1E/LXEL0L55SVBGFYCMN137Q5.uasset'
+[2025.09.12-18.22.08:008][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/0Y/FTGQVMG2YUQ32YJ4PB6ZI0
+[2025.09.12-18.22.08:008][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/FTGQVMG2YUQ32YJ4PB6ZI093CDA55D4EA631603EE73FBBB65B32A0.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/0Y/FTGQVMG2YUQ32YJ4PB6ZI0.uasset'
+[2025.09.12-18.22.08:012][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/ZQ/XQ3CUKR9369C2JBKAH9Z15
+[2025.09.12-18.22.08:012][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/XQ3CUKR9369C2JBKAH9Z158DE535D34911E7AAD05253A8E9B964DB.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/ZQ/XQ3CUKR9369C2JBKAH9Z15.uasset'
+[2025.09.12-18.22.08:015][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/DS/NGEM8JKT0T5OEEEZKF65DE
+[2025.09.12-18.22.08:016][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/NGEM8JKT0T5OEEEZKF65DECC89F617418A2F5873A34DAD79CDDB20.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/DS/NGEM8JKT0T5OEEEZKF65DE.uasset'
+[2025.09.12-18.22.08:019][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/19/2X1QGAGI1UDC8GM73YO047
+[2025.09.12-18.22.08:019][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/2X1QGAGI1UDC8GM73YO047F05219914C2C0EDEBFBD5BAF27AB36BC.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/19/2X1QGAGI1UDC8GM73YO047.uasset'
+[2025.09.12-18.22.08:022][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/6E/LEBNYCFS5YVHJJH7O0ZP2V
+[2025.09.12-18.22.08:022][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/LEBNYCFS5YVHJJH7O0ZP2VCEF9952341F2C5DE27C66F968FE994DA.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/6E/LEBNYCFS5YVHJJH7O0ZP2V.uasset'
+[2025.09.12-18.22.08:026][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/EM/LJYZN0602RVO0HA9OD4QFU
+[2025.09.12-18.22.08:026][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/LJYZN0602RVO0HA9OD4QFU7DCB214244554C69118532B79DF9A5F8.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/EM/LJYZN0602RVO0HA9OD4QFU.uasset'
+[2025.09.12-18.22.08:030][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/YQ/IJKY142NC6FOGTZSMWS8Y7
+[2025.09.12-18.22.08:030][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/IJKY142NC6FOGTZSMWS8Y74938B0AF46FC3E9474D59BBA41454C5B.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/YQ/IJKY142NC6FOGTZSMWS8Y7.uasset'
+[2025.09.12-18.22.08:034][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/BW/VRWJFLB2XBB17SHJ3BXW78
+[2025.09.12-18.22.08:034][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/VRWJFLB2XBB17SHJ3BXW7882A9F36B4E81B36D41348F950B1E50D8.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/BW/VRWJFLB2XBB17SHJ3BXW78.uasset'
+[2025.09.12-18.22.08:037][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/54/7W321KCE47GKPMA1KCRXCO
+[2025.09.12-18.22.08:037][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/7W321KCE47GKPMA1KCRXCOB8AFC5A14A1BDA95296D3E941CCE869E.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/54/7W321KCE47GKPMA1KCRXCO.uasset'
+[2025.09.12-18.22.08:041][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/0M/8JFLJ72ET6GQC9HJC5YM37
+[2025.09.12-18.22.08:041][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/8JFLJ72ET6GQC9HJC5YM37974B587C425B4D8A50F5E1BAC5150412.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/0M/8JFLJ72ET6GQC9HJC5YM37.uasset'
+[2025.09.12-18.22.08:045][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/OW/1JHNFAAUVMPF8GUD9FW36B
+[2025.09.12-18.22.08:045][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/1JHNFAAUVMPF8GUD9FW36B8E9389AC44E7840652E632989551E03D.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/OW/1JHNFAAUVMPF8GUD9FW36B.uasset'
+[2025.09.12-18.22.08:048][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/ST/AQDYBK8P87FLB5OB71O45Q
+[2025.09.12-18.22.08:048][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/AQDYBK8P87FLB5OB71O45QC47A257449D450CBAB762894F528EC21.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/ST/AQDYBK8P87FLB5OB71O45Q.uasset'
+[2025.09.12-18.22.08:052][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/G0/TSTAT9G8TWVRSYHC3CIXBV
+[2025.09.12-18.22.08:052][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/TSTAT9G8TWVRSYHC3CIXBV61A210CE4A4A133ED578F7848A206152.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/G0/TSTAT9G8TWVRSYHC3CIXBV.uasset'
+[2025.09.12-18.22.08:053][302]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/M_White] ([1] browsable assets)...
+[2025.09.12-18.22.08:053][302]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_White]
+[2025.09.12-18.22.08:053][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_White" FILE="G:/Not_A_Porn/Where_Is_Parry/Content/M_White.uasset" SILENT=true
+[2025.09.12-18.22.08:055][302]LogSavePackage: Moving output files for package: /Game/M_White
+[2025.09.12-18.22.08:056][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/M_White1A89A0304F5126644F74978F5BA77446.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/M_White.uasset'
+[2025.09.12-18.22.08:058][302]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/lampo2] ([1] browsable assets)...
+[2025.09.12-18.22.08:058][302]OBJ SavePackage: Finished generating thumbnails for package [/Game/lampo2]
+[2025.09.12-18.22.08:058][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lampo2" FILE="G:/Not_A_Porn/Where_Is_Parry/Content/lampo2.uasset" SILENT=true
+[2025.09.12-18.22.08:062][302]LogSavePackage: Moving output files for package: /Game/lampo2
+[2025.09.12-18.22.08:062][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/lampo2A1FB2A5C47F36C8632C6BDB552B42DCC.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/lampo2.uasset'
+[2025.09.12-18.22.08:064][302]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/lampo3] ([1] browsable assets)...
+[2025.09.12-18.22.08:111][302]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/lampo3.lampo3]
+[2025.09.12-18.22.08:111][302]OBJ SavePackage: Finished generating thumbnails for package [/Game/lampo3]
+[2025.09.12-18.22.08:111][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lampo3" FILE="G:/Not_A_Porn/Where_Is_Parry/Content/lampo3.uasset" SILENT=true
+[2025.09.12-18.22.08:266][302]LogSavePackage: Moving output files for package: /Game/lampo3
+[2025.09.12-18.22.08:266][302]LogSavePackage: Moving 'G:/Not_A_Porn/Where_Is_Parry/Saved/lampo3753D4A2E4E5DFE11B287F1991F81CD40.tmp' to 'G:/Not_A_Porn/Where_Is_Parry/Content/lampo3.uasset'
+[2025.09.12-18.22.08:277][302]LogFileHelpers: InternalPromptForCheckoutAndSave took 776.336 ms (total: 5.80 sec)
+[2025.09.12-18.22.08:348][302]LogContentValidation: Display: Starting to validate 58 assets
+[2025.09.12-18.22.08:348][302]LogContentValidation: Enabled validators:
+[2025.09.12-18.22.08:348][302]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.12-18.22.08:348][302]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.12-18.22.08:348][302]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.12-18.22.08:348][302]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.12-18.22.08:348][302]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.12-18.22.08:348][302]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.12-18.22.08:348][302]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2025.09.12-18.22.08:348][302]AssetCheck: /Game/M_White Validating asset
+[2025.09.12-18.22.08:348][302]AssetCheck: /Game/lampo2 Validating asset
+[2025.09.12-18.22.08:348][302]AssetCheck: /Game/lampo3 Validating asset
+[2025.09.12-18.22.55:934][272]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.22.55:935][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.22.56:872][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.09.12-18.22.56:989][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.09.12-18.22.56:991][273]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.027
+[2025.09.12-18.23.00:835][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.09.12-18.23.01:180][689]LogStall: Shutdown...
+[2025.09.12-18.23.01:180][689]LogStall: Shutdown complete.
+[2025.09.12-18.23.01:235][689]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.01:235][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.01:501][689]LogSlate: Window 'Where_Is_Parry - Unreal Editor' being destroyed
+[2025.09.12-18.23.02:209][689]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.09.12-18.23.02:237][689]Cmd: QUIT_EDITOR
+[2025.09.12-18.23.02:237][690]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.09.12-18.23.02:248][690]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.09.12-18.23.02:248][690]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.09.12-18.23.02:248][690]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.09.12-18.23.02:253][690]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:253][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:253][690]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.09.12-18.23.02:273][690]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.09.12-18.23.02:273][690]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.09.12-18.23.02:276][690]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:277][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:280][690]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:280][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:282][690]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:282][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:285][690]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:285][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:287][690]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:287][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:291][690]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:291][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:294][690]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:294][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:297][690]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:297][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:300][690]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:300][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:304][690]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:304][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:307][690]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:307][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:310][690]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:310][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:313][690]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:313][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:317][690]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.09.12-18.23.02:317][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.12-18.23.02:320][690]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.09.12-18.23.02:324][690]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.09.12-18.23.02:325][690]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.09.12-18.23.02:325][690]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.09.12-18.23.02:970][690]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.09.12-18.23.02:970][690]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.09.12-18.23.02:970][690]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2025.09.12-18.23.02:970][690]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.09.12-18.23.02:970][690]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.09.12-18.23.02:974][690]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.09.12-18.23.02:983][690]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.09.12-18.23.02:983][690]LogAudio: Display: Audio Device Manager Shutdown
+[2025.09.12-18.23.02:983][690]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.09.12-18.23.02:986][690]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.09.12-18.23.02:986][690]LogExit: Preparing to exit.
+[2025.09.12-18.23.03:025][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.09.12-18.23.03:030][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:030][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:032][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:032][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:032][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:033][690]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.12-18.23.03:800][690]LogEditorDataStorage: Deinitializing
+[2025.09.12-18.23.04:000][690]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.09.12-18.23.04:035][690]LogExit: Editor shut down
+[2025.09.12-18.23.04:042][690]LogExit: Transaction tracking system shut down
+[2025.09.12-18.23.04:279][690]LogExit: Object subsystem successfully closed.
+[2025.09.12-18.23.04:311][690]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.09.12-18.23.05:306][690]LogMemoryProfiler: Shutdown
+[2025.09.12-18.23.05:306][690]LogNetworkingProfiler: Shutdown
+[2025.09.12-18.23.05:306][690]LoadingProfiler: Shutdown
+[2025.09.12-18.23.05:306][690]LogTimingProfiler: Shutdown
+[2025.09.12-18.23.05:720][690]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.09.12-18.23.05:733][690]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.09.12-18.23.05:733][690]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB44C771A-427C-40B0-04B5-E5942CDA7720%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=3bcd83e8485f859b0cf142bbb298e4a7%7C83449bfaf3fa4d3e8e68ba82219279a8%7Ca8eae259-762f-4fb8-b19b-c8cd6966bf01&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.09.12-18.23.06:303][690]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.09.12-18.23.06:303][690]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.09.12-18.23.06:303][690]LogNFORDenoise: NFORDenoise function shutting down
+[2025.09.12-18.23.06:303][690]RenderDocPlugin: plugin has been unloaded.
+[2025.09.12-18.23.06:304][690]LogXGEController: Cleaning working directory: C:/Users/vsaz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.09.12-18.23.06:307][690]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.09.12-18.23.06:307][690]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.09.12-18.23.06:307][690]LogPakFile: Destroying PakPlatformFile
+[2025.09.12-18.23.06:748][690]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.09.12-18.23.06:803][690]LogExit: Exiting.
+[2025.09.12-18.23.06:952][690]Log file closed, 09/12/25 20:23:06
